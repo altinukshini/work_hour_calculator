@@ -5,7 +5,8 @@ define('HOUR_START_DAY', '08:00:00');
 define('HOUR_END_DAY', '17:00:00');
 
 // Main function that calculates working hours and returns the calculated time in seconds
-function calculateWorkHours($dateStart, $dateEnd){ //returns seconds || parameter format required 'Y-m-d H:i:s'
+function calculateWorkHours($dateStart, $dateEnd) //returns seconds || parameter format required 'Y-m-d H:i:s'
+{ 
 
     // keep the initial dates for later use
     $d1 = new DateTime($dateStart);
